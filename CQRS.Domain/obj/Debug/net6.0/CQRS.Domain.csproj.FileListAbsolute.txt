@@ -1,0 +1,12 @@
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\bin\Debug\net6.0\CQRS.Domain.deps.json
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\bin\Debug\net6.0\CQRS.Domain.dll
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\bin\Debug\net6.0\CQRS.Domain.pdb
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\CQRS.Domain.csproj.AssemblyReference.cache
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\CQRS.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\CQRS.Domain.AssemblyInfoInputs.cache
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\CQRS.Domain.AssemblyInfo.cs
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\CQRS.Domain.csproj.CoreCompileInputs.cache
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\CQRS.Domain.dll
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\refint\CQRS.Domain.dll
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\CQRS.Domain.pdb
+C:\Dev\Pessoal\conversation\API.CQRS.NET6\CQRS.Domain\obj\Debug\net6.0\ref\CQRS.Domain.dll
