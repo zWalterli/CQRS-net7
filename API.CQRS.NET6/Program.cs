@@ -1,5 +1,8 @@
 
+using CQRS.Infrastructure.Context;
 using MediatR;
+using Microsoft.AspNetCore.ResponseCompression;
+using System.IO.Compression;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args); 
@@ -11,8 +14,18 @@ builder.Services.AddMediatR(
     {
         Assembly.Load("CQRS.API"),
         Assembly.Load("CQRS.Domain"),
+        Assembly.Load("CQRS.Insfrastructure"),
     }
 );
+
+builder.Services.Configure<GzipCompressionProviderOptions>(options => options.Level = CompressionLevel.Optimal);
+builder.Services.AddResponseCompression(options =>
+{
+    options.Providers.Add<GzipCompressionProvider>();
+    options.EnableForHttps = true;
+});
+
+builder.Services.AddDbContext<APIContext>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();

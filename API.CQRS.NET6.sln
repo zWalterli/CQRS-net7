@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.2.32616.157
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.API", "API.CQRS.NET6\CQRS.API.csproj", "{5609FB31-0753-4EA2-88BE-6A4C93DCCB8F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS.API", "API.CQRS.NET6\CQRS.API.csproj", "{5609FB31-0753-4EA2-88BE-6A4C93DCCB8F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Domain", "CQRS.Domain\CQRS.Domain.csproj", "{7F4E8C36-B791-485F-8560-5307BF2D714E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CQRS.Domain", "CQRS.Domain\CQRS.Domain.csproj", "{7F4E8C36-B791-485F-8560-5307BF2D714E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CQRS.Infrastructure", "CQRS.Infrastructure\CQRS.Infrastructure.csproj", "{FFDDAE3F-7395-4DF2-9878-0330CD22DCEB}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,6 +23,10 @@ Global
 		{7F4E8C36-B791-485F-8560-5307BF2D714E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7F4E8C36-B791-485F-8560-5307BF2D714E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7F4E8C36-B791-485F-8560-5307BF2D714E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FFDDAE3F-7395-4DF2-9878-0330CD22DCEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FFDDAE3F-7395-4DF2-9878-0330CD22DCEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FFDDAE3F-7395-4DF2-9878-0330CD22DCEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FFDDAE3F-7395-4DF2-9878-0330CD22DCEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
