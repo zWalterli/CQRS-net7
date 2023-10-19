@@ -1,13 +1,17 @@
 
+using CQRS.API.Filters;
 using CQRS.Infrastructure.Context;
 using MediatR;
 using Microsoft.AspNetCore.ResponseCompression;
 using System.IO.Compression;
 using System.Reflection;
+using System.Text.Json.Serialization;
 
 var builder = WebApplication.CreateBuilder(args); 
 
 builder.Services.AddControllers();
+builder.Services.AddMvc(options => options.Filters.Add(new DefaultExceptionFilterAttribute()))
+                .AddJsonOptions(options => options.JsonSerializerOptions.DefaultIgnoreCondition = JsonIgnoreCondition.Never);
 
 builder.Services.AddMediatR(
     new Assembly[]
